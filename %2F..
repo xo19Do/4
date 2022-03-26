@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body onload="document.getElementById('csrf').submit()">
+
+<form id=csrf action="https://filesamples.com/samples/image/jpe/sample_1920%C3%971280.jpe?" method="GET" enctype="text/plan">
+</form>
+<for action="X" medthod+"post">
+
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required><br>
+
+<label for="psw"><b>Password</b></label>
+<input type="Password" placeholder="Enter Password" name="psw" required><br>
+
+</form>
+<script type="text/javascript">
+function conf()
+{
+var con=confirm("Password Leaked :)");
+}
+</script>
+</head>
+<form><input type="submit" onclick="conf()"></form>
+
+
+</body>
+</html>
