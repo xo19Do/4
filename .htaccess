@@ -1,5 +1,8 @@
-RewriteEngine On
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^daisy.eu.org[nc]
+RewriteRule ^(.*)$ http://www.daisy.eu.org/$1 [r=301,nc]
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ / [L,R=301]
+//Change default directory page
+DirectoryIndex /index.html
